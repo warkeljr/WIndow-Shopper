@@ -97,11 +97,10 @@
 		01E70B942049F0F500A15641 /* Window Shopper */ = {
 			isa = PBXGroup;
 			children = (
-				01E70BC52049F14200A15641 /* Controller */,
-				01E70BC42049F13A00A15641 /* View */,
 				01E70BC32049F12300A15641 /* Model */,
+				01E70BC42049F13A00A15641 /* View */,
+				01E70BC52049F14200A15641 /* Controller */,
 				01E70B952049F0F500A15641 /* AppDelegate.swift */,
-				01E70B972049F0F500A15641 /* MainVC.swift */,
 				01E70B992049F0F500A15641 /* Main.storyboard */,
 				01E70B9C2049F0F500A15641 /* Assets.xcassets */,
 				01E70B9E2049F0F500A15641 /* LaunchScreen.storyboard */,
@@ -145,6 +144,7 @@
 		01E70BC52049F14200A15641 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				01E70B972049F0F500A15641 /* MainVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
