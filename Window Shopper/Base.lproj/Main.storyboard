@@ -21,16 +21,54 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperBG" translatesAutoresizingMaskIntoConstraints="NO" id="SV9-eQ-Azt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="BLE-BE-xF9">
+                                <rect key="frame" x="155" y="50" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="R7h-oL-w6J"/>
+                                    <constraint firstAttribute="height" constant="65" id="wDG-sz-JN1"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="You hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y4W-jC-mY6" customClass="CurrencyTextField" customModule="Window_Shopper" customModuleProvider="target">
+                                <rect key="frame" x="30" y="183" width="315" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lF8-th-qxS"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FcL-dm-Pfh" customClass="CurrencyTextField" customModule="Window_Shopper" customModuleProvider="target">
+                                <rect key="frame" x="30" y="263" width="315" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="TXN-Hw-Hm2"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Y4W-jC-mY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="3ht-b2-g7F"/>
                             <constraint firstItem="SV9-eQ-Azt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="46b-Q0-AyG"/>
+                            <constraint firstItem="FcL-dm-Pfh" firstAttribute="trailing" secondItem="Y4W-jC-mY6" secondAttribute="trailing" id="6DD-mS-96L"/>
+                            <constraint firstItem="FcL-dm-Pfh" firstAttribute="height" secondItem="Y4W-jC-mY6" secondAttribute="height" id="7UU-wF-Vjh"/>
+                            <constraint firstItem="Y4W-jC-mY6" firstAttribute="top" secondItem="BLE-BE-xF9" secondAttribute="bottom" constant="68" id="8Cq-S9-TCK"/>
+                            <constraint firstItem="FcL-dm-Pfh" firstAttribute="leading" secondItem="Y4W-jC-mY6" secondAttribute="leading" id="AXw-GQ-4ap"/>
+                            <constraint firstItem="BLE-BE-xF9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="FBh-JM-enW"/>
+                            <constraint firstItem="BLE-BE-xF9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TLw-A5-FeJ"/>
+                            <constraint firstItem="FcL-dm-Pfh" firstAttribute="top" secondItem="Y4W-jC-mY6" secondAttribute="bottom" constant="40" id="Y4L-KI-hFl"/>
                             <constraint firstItem="SV9-eQ-Azt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bTL-FB-HH7"/>
                             <constraint firstItem="SV9-eQ-Azt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="gGl-Bw-HBp"/>
                             <constraint firstItem="SV9-eQ-Azt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gac-gD-rfs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y4W-jC-mY6" secondAttribute="trailing" constant="30" id="yad-jJ-qLI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="itemPriceTxt" destination="FcL-dm-Pfh" id="xBm-Xa-Xyh"/>
+                        <outlet property="wageTxt" destination="Y4W-jC-mY6" id="AsD-do-SEs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -39,5 +77,6 @@
     </scenes>
     <resources>
         <image name="windowShopperBG" width="414" height="736"/>
+        <image name="windowShopperIcon" width="115" height="115"/>
     </resources>
 </document>

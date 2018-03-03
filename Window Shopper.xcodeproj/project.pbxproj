@@ -14,6 +14,7 @@
 		01E70BA02049F0F500A15641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E70B9E2049F0F500A15641 /* LaunchScreen.storyboard */; };
 		01E70BAB2049F0F500A15641 /* Window_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BAA2049F0F500A15641 /* Window_ShopperTests.swift */; };
 		01E70BB62049F0F600A15641 /* Window_ShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BB52049F0F600A15641 /* Window_ShopperUITests.swift */; };
+		01E70BC7204AA3C500A15641 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BC6204AA3C500A15641 /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		01E70BB12049F0F500A15641 /* Window ShopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Window ShopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E70BB52049F0F600A15641 /* Window_ShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window_ShopperUITests.swift; sourceTree = "<group>"; };
 		01E70BB72049F0F600A15641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E70BC6204AA3C500A15641 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		01E70BC42049F13A00A15641 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01E70BC6204AA3C500A15641 /* CurrencyTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E70BC7204AA3C500A15641 /* CurrencyTextField.swift in Sources */,
 				01E70B982049F0F500A15641 /* MainVC.swift in Sources */,
 				01E70B962049F0F500A15641 /* AppDelegate.swift in Sources */,
 			);
