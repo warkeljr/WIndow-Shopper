@@ -15,6 +15,8 @@
 		01E70BAB2049F0F500A15641 /* Window_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BAA2049F0F500A15641 /* Window_ShopperTests.swift */; };
 		01E70BB62049F0F600A15641 /* Window_ShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BB52049F0F600A15641 /* Window_ShopperUITests.swift */; };
 		01E70BC7204AA3C500A15641 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BC6204AA3C500A15641 /* CurrencyTextField.swift */; };
+		01E70BC9204AD45800A15641 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BC8204AD45800A15641 /* Wage.swift */; };
+		01E70BCA204AD5D400A15641 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E70BC8204AD45800A15641 /* Wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		01E70BB52049F0F600A15641 /* Window_ShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window_ShopperUITests.swift; sourceTree = "<group>"; };
 		01E70BB72049F0F600A15641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01E70BC6204AA3C500A15641 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		01E70BC8204AD45800A15641 /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 		01E70BC32049F12300A15641 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				01E70BC8204AD45800A15641 /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E70BC7204AA3C500A15641 /* CurrencyTextField.swift in Sources */,
+				01E70BC9204AD45800A15641 /* Wage.swift in Sources */,
 				01E70B982049F0F500A15641 /* MainVC.swift in Sources */,
 				01E70B962049F0F500A15641 /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E70BAB2049F0F500A15641 /* Window_ShopperTests.swift in Sources */,
+				01E70BCA204AD5D400A15641 /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
